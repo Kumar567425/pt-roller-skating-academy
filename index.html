@@ -1,82 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PT Roller Skating Academy</title>
-  <link rel="stylesheet" href="style.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PT Roller Skating Academy | Bhiwadi</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f6f8;
+    color: #333;
+}
+header {
+    background-color: #1da1f2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+header img {
+    height: 70px;
+    margin-bottom: 10px;
+}
+nav {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+}
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #1da1f2;
+}
+.hero {
+    background: url('https://images.unsplash.com/photo-1549575810-b9cbb6f1c2a4') center/cover;
+    color: white;
+    padding: 70px 20px;
+    text-align: center;
+}
+.container {
+    max-width: 1100px;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+}
+.section {
+    margin-bottom: 40px;
+}
+.section h2 {
+    color: #1da1f2;
+}
+.classes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card {
+    flex: 1 1 300px;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+button {
+    background: #1da1f2;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background: #0c7dc0;
+}
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25d366;
+    color: white;
+    padding: 14px 18px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+}
+</style>
 </head>
+
 <body>
-  <header>
+
+<header>
+    <img src="pt-roller-logo.jpg" alt="PT Roller Skating Academy Logo">
     <h1>PT Roller Skating Academy</h1>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#sports">Sports We Offer</a></li>
-        <li><a href="#coaches">Coaches / Team</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#events">Events</a></li>
-        <li><a href="#form">Register</a></li>
-        <li><a href="#contact">Contact Us</a></li>
-      </ul>
-    </nav>
-  </header>
+    <p><strong>Stay Healthy Stay Play</strong></p>
+</header>
 
-  <section id="home">
-    <h2>Welcome to PT Roller Skating Academy</h2>
-    <p>Your journey to speed, balance, and confidence begins here.</p>
-  </section>
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#classes">Classes</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-  <section id="about">
-    <h2>About Us</h2>
-    <p>Roller skating is an exhilarating activity that combines athleticism and grace, providing students with a unique opportunity for physical fitness and skill development. Our academy fosters a culture of teamwork, discipline, and personal growth, with a focus on safety, quality training, and fun. Located in Bhiwadi, we provide top-class training and facilities to skaters of all levels.</p>
-  </section>
+<div class="hero" id="home">
+    <h1>Learn Roller Skating with Professionals</h1>
+    <p>Training students from beginner to competition level</p>
+</div>
 
-  <section id="sports">
-    <h2>Sports We Offer</h2>
-    <ul>
-      <li>Speed Skating</li>
-      <li>Artistic Skating</li>
-      <li>Quad & Inline Skating</li>
-    </ul>
-  </section>
+<div class="container">
 
-  <section id="coaches">
-    <h2>Our Coaches</h2>
-    <p>Meet our team of experienced and certified roller skating coaches who are dedicated to helping every student reach their full potential.</p>
-  </section>
+<section class="section" id="about">
+<h2>About Us</h2>
+<p>
+PT Roller Skating Academy is a professional sports academy based in Bhiwadi, Rajasthan.
+We focus on discipline, fitness, confidence, and competitive skating skills for children and youth.
+Our experienced coaches ensure safe and structured training for all age groups.
+</p>
+</section>
 
-  <section id="gallery">
-    <h2>Gallery</h2>
-    <p>Photos and videos coming soon!</p>
-  </section>
+<section class="section" id="classes">
+<h2>Our Training Programs</h2>
+<div class="classes">
 
-  <section id="events">
-    <h2>Events / Tournaments</h2>
-    <p>Stay tuned for our latest competitions, tournaments, and roller skating camps happening throughout the year.</p>
-  </section>
+<div class="card">
+<h3>Beginner Level</h3>
+<p>Balance, movement, stopping, basic techniques.</p>
+<p><strong>Fee:</strong> ₹1200 / month</p>
+</div>
 
-  <section id="form">
-    <h2>Registration / Enquiry Form</h2>
-    <form>
-      <input type="text" placeholder="Name" required />
-      <input type="tel" placeholder="Phone" required />
-      <input type="email" placeholder="Email" required />
-      <textarea placeholder="Message / Enquiry" required></textarea>
-      <button type="submit">Submit</button>
-    </form>
-  </section>
+<div class="card">
+<h3>Intermediate Level</h3>
+<p>Speed control, turns, jumps, freestyle basics.</p>
+<p><strong>Fee:</strong> ₹1200 / month</p>
+</div>
 
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p><strong>Kaushal Kumar</strong></p>
-    <p>Phone: 9660949523</p>
-    <p>Address: BDI Sunshine, Terra Heritage, Terra Elegance, Bhiwadi</p>
-  </section>
+<div class="card">
+<h3>Advanced & Competition</h3>
+<p>Professional training for district & state competitions.</p>
+<p><strong>Fee:</strong> ₹1500 / month</p>
+</div>
 
-  <footer>
-    <p>&copy; 2025 PT Roller Skating Academy. All rights reserved.</p>
-  </footer>
+</div>
+</section>
+
+<section class="section" id="contact">
+<h2>Contact Us</h2>
+<p><strong>Address:</strong> BDI Sunshine, Terra Heritage, Bhiwadi, Rajasthan</p>
+<p><strong>Phone:</strong> +91 96609 49523</p>
+<p><strong>Email:</strong> kaushalkumar8607022564@gmail.com</p>
+
+<form onsubmit="alert('Thank you for contacting PT Roller Skating Academy!'); return false;">
+<input type="text" placeholder="Your Name" required><br><br>
+<input type="tel" placeholder="Mobile Number" required><br><br>
+<textarea placeholder="Your Message" required></textarea><br><br>
+<button type="submit">Send Enquiry</button>
+</form>
+</section>
+
+</div>
+
+<a class="whatsapp" href="https://wa.me/919660949523" target="_blank">
+WhatsApp
+</a>
+
+<footer>
+<p>© 2026 PT Roller Skating Academy | All Rights Reserved</p>
+</footer>
+
 </body>
 </html>
